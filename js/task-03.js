@@ -14,7 +14,6 @@ const images = [
 ];
 
 const list = document.querySelector(".gallery");
-console.log(list);
 
 const urls = images
   .map(
@@ -24,7 +23,6 @@ const urls = images
   .join("");
 
 list.insertAdjacentHTML("beforeend", urls);
-console.log(urls);
 
 list.style.display = "flex";
 list.style.gap = "40px";
